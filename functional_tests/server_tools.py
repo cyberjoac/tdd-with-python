@@ -9,7 +9,7 @@ def create_session_on_server(host, email):
         [
             'fab',
             'create_session_on_server:email={}'.format(email),
-            '--host=cyberjoac@{}'.format(host),
+            '--host={}'.format(host),
             '--hide=everything,status',
         ],
         cwd=THIS_FOLDER
