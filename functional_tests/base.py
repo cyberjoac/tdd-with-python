@@ -1,4 +1,5 @@
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
+from functional_tests.server_tools import reset_database
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 import sys
